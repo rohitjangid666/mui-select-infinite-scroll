@@ -7,6 +7,8 @@ function InfiniteScrollSelect() {
   const [isLoading, setIsLoading] = useState(false)
   const [selectedPokemon, setSelectedPokemon] = useState('bulbasaur')
 
+  // TODO: add handleChange, bug to resolve on handleChange
+
   useEffect(() => {
     const fetchPokemon = async () => {
       setIsLoading(true)
